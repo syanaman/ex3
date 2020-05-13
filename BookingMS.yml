@@ -1,5 +1,5 @@
 flight:
-  uri: http://localhost:4402/InfyGoBoot/flights/
+  uri: http://localhost:5566/InfyGoBoot/flights/
 spring:
     datasource:
     username: root
