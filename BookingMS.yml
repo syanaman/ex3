@@ -1,1 +1,7 @@
-
+flight:
+  uri: http://localhost:4402/InfyGoBoot/flights/
+spring:
+    datasource:
+    username: root
+    password: 
+    url: jdbc:mysql://localhost:3306/db_irs_booking?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
