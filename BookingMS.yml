@@ -2,6 +2,6 @@ flight:
   uri: http://localhost:5566/InfyGoBoot/flights/
 spring:
     datasource:
-    username: root
-    password: 
-    url: jdbc:mysql://localhost:3306/db_irs_booking
+      username: root
+      password: 
+      url: jdbc:mysql://localhost:3306/db_irs_booking
