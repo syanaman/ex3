@@ -9,10 +9,5 @@ bookingribbon:
   ribbon:
     eureka:
       enabled: false
-    listOfServers: http://localhost:4401,http://localhost:4402
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:5555/eureka
-    
+    listOfServers: http://localhost:4401,http://localhost:4402    
     
