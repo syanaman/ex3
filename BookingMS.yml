@@ -3,8 +3,9 @@ flight:
 spring:
   datasource:
     username: root
-    password: 
+    password:
     url: jdbc:mysql://localhost:3306/db_irs_booking?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+    
 bookingribbon:
   ribbon:
     eureka:
