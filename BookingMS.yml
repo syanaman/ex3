@@ -5,3 +5,8 @@ spring:
       username: root
       password: 
       url: jdbc:mysql://localhost:3306/db_irs_booking?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+bookingribbon:
+  ribbon:
+    eureka:
+      enabled: false
+    listOfServers: http://localhost:4401,http://localhost:4402
